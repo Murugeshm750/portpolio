@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="Stylesheet" href="/css/form.css">
+</head>
+<body>
+    <h1>FORM</h1>
+    <form action="#">
+     <div class="uname">
+        <h3>Text Box</h3>
+        <label>Name</label>
+        <input class="name"type="text" placeholder="Enter Name" pattern="[a-zA-Z]{3,10}" required title="Please Enter Correct Name">
+         <br> 
+         <button>Submit</button>
+         <p style="color: red;">[Note:- Name should be of Minimun 3 characters and maximum 10 characters,<br> Name should contain characters only]</p>
+
+    </div>
+    <div class="email">
+        <h3>Email</h3>
+        <label>Email</label>
+        <input type="text" placeholder="Enetr your Email" pattern="[a-zA-Z0-9@*]+@[a-zA-Z]+[a-z]{2,3}" required>
+        
+    </div>
+    </form>
+</body>
+</html>
